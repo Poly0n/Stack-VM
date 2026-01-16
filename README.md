@@ -29,7 +29,7 @@ A lightweight, simulated stack-based virtual machine that executes custom pseudo
 
 ```bash
 # Clone the repository
-git clone https://github.com/Poly0n/stack-vm.git
+git clone https://github.com/Poly0n/Stack-VM.git
 cd stack-vm
 
 # Build the project
