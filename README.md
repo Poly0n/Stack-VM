@@ -33,7 +33,7 @@ git clone https://github.com/your-username/stack-vm.git
 cd stack-vm
 
 # Build the project
-g++ -std=c++17 -o stackvm main.cpp
+ g++ -std=c++17 -o stackvm main.cpp stack.cpp
 
 # Or use CMake
 mkdir build && cd build
