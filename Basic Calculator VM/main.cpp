@@ -7,7 +7,9 @@ int main()
 {
 	stack stck;
 
-	std::string file = "C:\\whatever.txt";
+	std::filesystem::path cwd = std::filesystem::current_path();
+	std::filesystem::path filePath = cwd / "example.txt";
+	std::string file = filePath.string();
 
 	if (stck.loadFromFile(file)) {
 		stck.printInstructions();
