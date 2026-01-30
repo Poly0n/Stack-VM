@@ -23,7 +23,6 @@ A lightweight, simulated stack-based virtual machine that executes custom pseudo
 
 ### Prerequisites
 - C++17 compatible compiler (GCC, Clang, MSVC)
-- CMake (optional, for build automation)
 
 ### Installation
 
@@ -34,7 +33,3 @@ cd stack-vm
 
 # Build the project
  g++ -std=c++17 -o stackvm main.cpp stack.cpp
-
-# Or use CMake
-mkdir build && cd build
-cmake .. && make
